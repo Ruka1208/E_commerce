@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin : 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* Logo and office */
+.row{
+    display: flex;
+}
+.header_admin_top{
+    background-color: black;
+    padding: 20px;
+    width: auto;
+}
+
+.header_admin_top_size{
+    background-color: black;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+
+.header_admin_top_size h1{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.user_admin{
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+.office_user_admin{
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 700;
+    color: #fff;
+}
+
+.logo_user_admin{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.header_admin_size{
+    max-width: 1200px;
+    margin: auto;
+}
+/* menu */
+.header_admin_size{
+    padding-top: 10px;
+}
+
+.header_admin_menu_item{
+    margin-top:10px ;
+}
+
+.header_admin_menu_list h2{
+    text-align: center;
+    padding: 10px 5px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.header_admin_menu_list li{
+    border: 0.1px solid gray;
+    padding: 10px;
+    font-size: 18px;
+    width: 170px;
+    cursor: pointer;
+}
+.header_admin_menu_list a{
+    color: black;
+    text-align: left;
+}
+
+.header_admin_menu_list li:hover{
+    background-color: rgb(190, 199, 209);
+    color: #ffffff;
+}
+
+/* danh muc san pham */
+
+.danhmucsp_them , .danhmucsp_lietke{
+    width: 1000px;
+    margin: auto;
+    margin: 0px 20px;
+}
+
+.danhmucsp_title , .danhmucsp_lietke_title{
+    background-color: black;
+    color: #fff;
+    padding : 15px;
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 10px;
+}
+
+/* .danhmucsp_lietke{
+    background-color: #eeeeee;
+    border: 0.1px solid gray;
+    margin-top: 5px;
+    border-radius: 10px;
+} */
+
+.danhmucsp_lietke_container li{
+    border: 0.1px solid gray;
+    background-color: #fcf9f9;
+}
+
+.danhmucsp_them_content input{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    outline : none;
+}
+
+.danhmucsp_them_item{
+    align-items: center;
+}
+
+.danhmucsp_them_item span{
+    width: 250px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.danhmucsp_them_content button{
+    width: 100%;
+    padding: 20px;
+    outline : none;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+    border-radius: 15px;
+}
+
+
+.danhmucsp_them_item textarea{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    outline : none;
+    height: 150px;
+}
+.danhmucsp_them_item select{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    outline : none;
+}
+
+.danhmucsp_them_content button:hover{
+    background-color: rgb(3, 119, 214);
+}
+
+.danhmucsp_lietke_container li{
+    width: 33%;
+    padding: 10px 0;
+}
+
+
+.danhmucsp_lietke_ql a{
+    padding: 0 10px;
+    color: black;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.danhmucsp_lietke_ql a:hover{
+    color: rgb(3, 119, 214);
+}
+
+/* Quản lí sản phẩm */
+.qlcsp_lietke_container li{
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    white-space: normal;
+    align-items: center;
+}
+
+table{
+    border: none;
+}
+/* tr{
+    color: red;
+} */
+li {
+    border: 1px solid black;
+    text-align: center;
+    background-color:#fcf9f9;
+    width: 10%;
+    overflow: hidden;
+}
+
+tr > th{
+    color: red;
+}
+
+.qlcsp_lietke_container{
+    align-items: center;
+}
+
+
+.qlcsp_lietke_container li:first-child{
+    width: 4%;
+}
